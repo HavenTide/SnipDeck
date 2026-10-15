@@ -1,6 +1,6 @@
 """系统托盘"""
-from PyQt6.QtWidgets import QSystemTrayIcon, QMenu, QApplication, QAction
-from PyQt6.QtGui import QIcon, QPixmap, QPainter, QColor, QAction as QActionGui
+from PyQt6.QtWidgets import QSystemTrayIcon, QMenu, QApplication
+from PyQt6.QtGui import QIcon, QPixmap, QPainter, QColor, QAction
 from PyQt6.QtCore import Qt
 from app.config import APP_NAME
 

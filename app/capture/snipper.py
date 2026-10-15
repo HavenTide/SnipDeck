@@ -1,12 +1,12 @@
 """选区截图遮罩窗口 — 全屏变暗、拖拽选区、放大镜、标注工具栏"""
 from PyQt6.QtWidgets import (
-    QWidget, QApplication, QMenu, QAction, QColorDialog, QFontDialog,
+    QWidget, QApplication, QMenu, QColorDialog, QFontDialog,
     QInputDialog, QMessageBox
 )
 from PyQt6.QtCore import Qt, QRect, QPoint, QTimer, pyqtSignal, QSize
 from PyQt6.QtGui import (
     QPainter, QPen, QColor, QPixmap, QImage, QCursor, QPainterPath,
-    QPolygon, QFont, QMouseEvent, QKeyEvent, QGuiApplication
+    QPolygon, QFont, QMouseEvent, QKeyEvent, QGuiApplication, QAction
 )
 import mss
 import numpy as np
