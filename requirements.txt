@@ -1,4 +1,4 @@
-# SnipDeck 依赖
+# SnipDeck 核心依赖（必装）
 PyQt6>=6.6.0
 mss>=9.0.1
 numpy>=1.26.0
@@ -6,5 +6,3 @@ Pillow>=10.2.0
 keyboard>=0.13.5
 pyperclip>=1.8.2
 imageio-ffmpeg>=0.5.1
-pynput>=1.7.6
-easyocr>=1.7.1
